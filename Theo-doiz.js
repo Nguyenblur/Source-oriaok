@@ -1,4 +1,3 @@
-<b:if cond='data:view.isPost'>
 var limitBookmark = 100;
 var bookmark = (function(){
 list = [];
@@ -103,4 +102,4 @@ if(list.length<limitBookmark){
 }
   })
 });
-</b:if>
+
