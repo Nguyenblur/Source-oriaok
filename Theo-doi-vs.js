@@ -96,7 +96,7 @@ if(list.length<limitBookmark){
 }
   }else{
   	bookmark.removeThisItem(id);
-  	$(this).html('Theo dõi')
+  	$(this).html('Đã theo dõi')
        $(this).removeClass('bookmarked')
   }
 }
