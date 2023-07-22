@@ -110,7 +110,7 @@ function imageString(str) {
 var urlParams = new URLSearchParams(window.location.search);
 var page = urlParams.get('page') || 1;
 //****** Setting ******//
-function filterLabels(categories){var excludedLabels = ["Action", "Adventure", "Comedy", "Cooking", "Drama", "Ecchi", "Fantasy", "Game", "Harem", "Historical", "Horror", "Isekai", "Josei", "Magic", "Manhua", "Manhwa", "Martial Arts", "Mature", "Mecha", "Medical", "Military", "Music", "Mystery", "Psychological", "Romance", "School Life", "Sci-Fi", "Seinen", "Shoujo", "Shounen", "Slice of Life", "Sports", "Supernatural", "Thriller", "Tragedy", "Vampire", "Series", "Project", "Light Novel", "WebNovel", "Web Novel", "Chapter", "Novel", "Novels", "Đang tiến hành", "Hoàn thành", "Hot", "New", "Manga", "Manhwa", "Manhua", "Cảnh báo", "Tạm dừng", "Sắp ra mắt"];
+function filterLabels(categories){var excludedLabels = ["Action", "Adventure", "Comedy", "Cooking", "Drama", "Ecchi", "Fantasy", "Game", "Harem", "Historical", "Horror", "Isekai", "Josei", "Magic", "Manhua", "Manhwa", "Martial Arts", "Mature", "Mecha", "Medical", "Military", "Music", "Mystery", "Psychological", "Romance", "School Life", "Sci-Fi", "Seinen", "Shoujo", "Shounen", "Slice of Life", "Sports", "Supernatural", "Thriller", "Tragedy", "Vampire", "Series", "Project", "Light Novel", "WebNovel", "Web Novel", "Chapter", "Novel", "Novels", "Đang tiến hành", "Hoàn thành", "Hot", "New", "Manga", "Manhwa", "Manhua", "Cảnh báo"];
 // You must add the "label" you are using for the posts "Series" to "excludedLabels".
 
 var filteredLabels = categories.filter(function(cat){return!excludedLabels.includes(cat)});return filteredLabels}document.addEventListener('DOMContentLoaded',function(){
