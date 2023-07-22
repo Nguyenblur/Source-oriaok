@@ -62,7 +62,7 @@ $('.bookmark').each(function(event) {
 const getData = JSON.parse(localStorage.getItem('bookmark'));
 for(var i in getData){
 	if(getData[i].id == $(this).data('id')){
-     $(this).html('Theo dõi.')
+     $(this).html('đã Theo dõi')
      $(this).addClass('bookmarked')
     }
 }
