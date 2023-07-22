@@ -941,10 +941,10 @@ i.icon-star.silver:before,i.icon-star.silver:before{content:&#39;&#39;;width:17p
   .New-tranvu::before{content: "NEW";background: limegreen}
   .manga-tranvu::before{content: "Manga";background-color:red}
   .manhwa-tranvu::before{content: "Manhwa";background-color:#f90}
-  .manhua-tranvu::before{content: "Manhua";background-color:#44db1a}
+  .manhua-tranvu::before{content: "Manhua";background-color:#00CCFF}
   .Ln-tranvu::before{content: "Light novel";background-color:#8000db}
   .Wn-tranvu::before{content: "Web novel";background-color:#0075cf}
-  .in-progress-tranvu::before{content: "TIẾN HÀNH";top: 17px;left: -24px;background: #f7b500}
+  .in-progress-tranvu::before{content: "TIẾN HÀNH";top: 17px;left: -24px;background: #99FFFF}
   .completed-tranvu::before{content: "HOÀN THÀNH";top: 19px;left: -27px;background: #15b33d}
   /* END */
   
