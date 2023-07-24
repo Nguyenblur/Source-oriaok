@@ -599,17 +599,6 @@ img{vertical-align:middle;}
 .buka-tutup{color:white;}
 .dark-mode .body-content,.dark-mode .pop-html{background:#222;}
 .dark-mode .table{border:1px solid #333;}
-#chapterSelect{background:#333;border:1px solid #333;font-family:inherit;display:block;color:#9b9b9b;padding:3px 10px;border-radius:20px;font-size:13px;max-width: 150px;}
-.nextPrev a{padding:3px 15px;border-radius:20px;color:#fff;font-size:13px;background:$(keycolor);}
-.nextPrev svg{width:18px;height:18px;}
-#ecNext a{padding-right:8px;}
-#ecPrev a{padding-left:8px;}
-.progress-custom{display:flex;align-items:center;background:;}
-.progress{display:flex;height:1rem;overflow:hidden;font-size:0.75rem;background-color:;border-radius:0.25rem;height:1rem;font-size:0.6em;flex:1;position:relative;}
-.progress-bar{display:flex;flex-direction:column;justify-content:center;overflow:hidden;color:#fff;text-align:center;white-space:nowrap;transition:width 0.6s ease;overflow:hidden;background:linear-gradient(to right, $(keycolor), $(secclr));padding-right:calc(100% - var(--width));width:100%;height:100%;-webkit-clip-path:inset(0 calc(100% - var(--width)) 0 0);clip-path:inset(0 calc(100% - var(--width)) 0 0);}
-.progress-custom .progress-value{font-size:0.8em;padding:0 0.5em;}
-div#ec_Select { visibility: hidden;user-select: none;pointer-events: none;width: 0;}
-
 
 /* Search Filter */
 .BlogSearch input[type=checkbox]:not(.simple,.hidden){position:relative;-webkit-appearance:none;width:12px;height:18px;border:1px solid #DDD;border-radius:5px;-webkit-transition:.4s;transition:.15s;vertical-align:-25%;display:inline-block;cursor:pointer;outline:0;margin: 0;}
@@ -682,7 +671,7 @@ input[type=checkbox]:not(.simple,.hidden):after{content: url('https://api.iconif
   
    
 
-@media only screen and (max-width:600px){#nPL{flex-direction:column;align-items:center;}#nPL > div{width:100%;}#nPL_select{width:100%;max-width:100%;}.inner_nPL > a{width:100%;}}
+@media only screen and (max-width:600px){#nPL{flex-direction:column;align-items:center;}#nPL > div{width:100%;}.nPL_select{width:100%;max-width:100%;}.inner_nPL > a{width:100%;}}
 @media only screen and (max-width:350px){.inner_nPL{display:grid;gap:10px;grid-template-columns:repeat(2,1fr);}#dl{grid-column:1/3;}}
   @media only screen and (max-width: 600px)
 .customAF.scroll .scrollButton {
